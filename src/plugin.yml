@@ -1,0 +1,19 @@
+name: Guilt
+main: net.turtleshell.Guilt.Guilt
+version: 2.0
+author: Machnikowski
+description: Guilt is a lightweight plugin that gives fun death messages to mobs in Minecraft
+commands:
+  guilt:
+    usage: /<command> <args>
+    description: Root for all commands.
+permissions:
+  guilt.use:
+    default: false
+    description: Allows user to see death messages.
+  guilt.help:
+    default: false
+    description: Gives users access to help command.
+  guilt.admin:
+    default: false
+    description: Gives users access to all other commands.
