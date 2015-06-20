@@ -43,11 +43,11 @@ public class Friendly implements Listener {
             if(number == 1){
                 msg = (ChatColor.RED + "Nooooo! It was just so fluffy");
             }else if(number == 2){
-                msg = (ChatColor.RED + "Baaaaa Baaaaaa. It just ment I love you!");
+                msg = (ChatColor.RED + "Baaaaa Baaaaaa. It just meant I love you!");
             }else if(number == 3){
                 msg = (ChatColor.RED + "I hope that wool keeps you warm at night.");
             }else if(number == 4){
-                msg = (ChatColor.RED + "I sure hope he didnt have a little lamb to go home to!");
+                msg = (ChatColor.RED + "I sure hope he didn't have a little lamb to go home to!");
             }else if(number == 5){
                 msg = (ChatColor.RED + "Could you see the look of hope in its eyes, BEFORE YOU CRUSHED IT!");
             }
@@ -66,7 +66,7 @@ public class Friendly implements Listener {
             }else if(number == 2){
                 msg = (ChatColor.RED + "NOOOOOOOO! Not Kevin Bacon, He was my only piggy pal");
             }else if(number == 3){
-                msg = (ChatColor.RED + "He'll never see his freind Charlotte again.");
+                msg = (ChatColor.RED + "He'll never see his friend Charlotte again.");
             }else if(number == 4){
                 msg = (ChatColor.RED + "Man it better be worth the bacon.");
             }else if(number == 5){
@@ -83,11 +83,11 @@ public class Friendly implements Listener {
         }else if(e.getEntity() instanceof Cow){
             Cow cow = (Cow) e.getEntity();
             if(number == 1){
-                msg = (ChatColor.RED + "MMMMMM beef. I wish I didnt have to die for it");
+                msg = (ChatColor.RED + "MMMMMM beef. I wish I didn't have to die for it");
             }else if(number == 2){
                 msg = (ChatColor.RED + "MOOOOOOOOOOOOOOOOOO! Wait I mean, NOOOOOOOOOOOOOOOOOOOOOO!");
             }else if(number == 3){
-                msg = (ChatColor.RED + "Is the parentless calf worth your one piece of leather?");
+                msg = (ChatColor.RED + "Is the parent-less calf worth your one piece of leather?");
             }else if(number == 4){
                 msg = (ChatColor.RED + "I don't think I smell like hambur- Wait why is there a sword in your hand?");
             }else if(number == 5){
@@ -106,13 +106,13 @@ public class Friendly implements Listener {
             if(number == 1){
                 msg = (ChatColor.RED + "Look at all those feathers that are now covered in blood.");
             }else if(number == 2){
-                msg = (ChatColor.RED + "I hope he didnt have a wife and eggs to go home too.");
+                msg = (ChatColor.RED + "I hope he didn't have a wife and eggs to go home too.");
             }else if(number == 3){
                 msg = (ChatColor.RED + "Cluck Cluck BACAaa- Now hes dead.");
             }else if(number == 4){
                 msg = (ChatColor.RED + "It's just soo much fun to kill a chicken - Said no one ever.");
             }else if(number == 5){
-                msg = (ChatColor.RED + "Hopfully you dont serve me with my children.");
+                msg = (ChatColor.RED + "Hopefully you don't serve me with my children.");
             }
 
             if(ch.getKiller() instanceof Player){
@@ -173,9 +173,9 @@ public class Friendly implements Listener {
             }else if(number == 3){
                 msg = (ChatColor.RED + "Kitties are cute how could you!");
             }else if(number == 4){
-                msg = (ChatColor.RED + "Meow was my way of saying please dont.");
+                msg = (ChatColor.RED + "Meow was my way of saying please don't.");
             }else if(number == 5){
-                msg = (ChatColor.RED + "It wasnt even worth it was it.");
+                msg = (ChatColor.RED + "It wasn't even worth it was it.");
             }
 
             if(oc.getKiller() instanceof Player){
@@ -213,11 +213,11 @@ public class Friendly implements Listener {
             }else if(number == 2){
                 msg = (ChatColor.RED + "I guess I was just too annoying for you.");
             }else if(number == 3){
-                msg = (ChatColor.RED + "Killing all of us makes you look like a pyschopath!");
+                msg = (ChatColor.RED + "Killing all of us makes you look like a psychopath!");
             }else if(number == 4){
                 msg = (ChatColor.RED + "I just wanted to trade you for an Emerald.");
             }else if(number == 5){
-                msg = (ChatColor.RED + "I would've given you a house in the village. You didnt have to kill me.");
+                msg = (ChatColor.RED + "I would've given you a house in the village. You didn't have to kill me.");
             }
 
             if(vl.getKiller() instanceof Player){
@@ -232,13 +232,13 @@ public class Friendly implements Listener {
             if(number == 1){
                 msg = (ChatColor.RED + "NANANANANANANANA DEADBAT!");
             }else if(number == 2){
-                msg = (ChatColor.RED + "I dont even give you exp.");
+                msg = (ChatColor.RED + "I don't even give you exp.");
             }else if(number == 3){
                 msg = (ChatColor.RED + "But my squeking is just so cute.");
             }else if(number == 4){
-                msg = (ChatColor.RED + "How could you! I couldnt even see you coming.");
+                msg = (ChatColor.RED + "How could you! I couldn't even see you coming.");
             }else if(number == 5){
-                msg = (ChatColor.RED + "Completly defensless. Way to go!");
+                msg = (ChatColor.RED + "Completely defenseless. Way to go!");
             }
 
             if(bat.getKiller() instanceof Player){
@@ -255,7 +255,7 @@ public class Friendly implements Listener {
             if(number == 1){
                 msg = (ChatColor.RED + "NOOOOO! Not my sweet mushrooms");
             }else if(number ==2){
-                msg = (ChatColor.RED + "Its because I'm red Isnt it.");
+                msg = (ChatColor.RED + "Its because I'm red Isn't it.");
             }else if(number ==3){
                 msg = (ChatColor.RED + "You could've just used shears.");
             }else if(number == 4){

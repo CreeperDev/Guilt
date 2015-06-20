@@ -45,7 +45,7 @@ public class Hostiles implements Listener {
             }else if(number ==3){
                 msg = (ChatColor.RED + "Please dont hit my friend behind you!");
             }else if(number == 4){
-                msg = (ChatColor.RED + "Creepers just make the game more intresting!");
+                msg = (ChatColor.RED + "Creepers just make the game more interesting!");
             }else if(number == 5){
                 msg = (ChatColor.RED + "Im just gonna get you next time.");
             }
@@ -89,7 +89,7 @@ public class Hostiles implements Listener {
             }else if(number ==2){
                 msg = (ChatColor.RED + "Wow it didn't even attack you first.");
             }else if(number ==3){
-                msg = (ChatColor.RED + "One nugget shouldnt be worth it.");
+                msg = (ChatColor.RED + "One nugget shouldn't be worth it.");
             }else if(number == 4){
                 msg = (ChatColor.RED + "Haven't I already suffered enough, just look at my face.");
             }else if(number == 5){
@@ -110,11 +110,11 @@ public class Hostiles implements Listener {
             if(number == 1){
                 msg = (ChatColor.RED + "I would've just given you the string.");
             }else if(number ==2){
-                msg = (ChatColor.RED + "HI wanna be firen- Why are you hitting me?");
+                msg = (ChatColor.RED + "HI wanna be frien- Why are you hitting me?");
             }else if(number ==3){
                 msg = (ChatColor.RED + "You didn't like my jumping kisses?");
             }else if(number == 4){
-                msg = (ChatColor.RED + "Well I guess I shouldnt scare you anymore.");
+                msg = (ChatColor.RED + "Well I guess I shouldn't scare you anymore.");
             }else if(number == 5){
                 msg = (ChatColor.RED + "It only had love inside It's eight eyes");
             }
@@ -133,11 +133,11 @@ public class Hostiles implements Listener {
             if(number == 1){
                 msg = (ChatColor.RED + "I would've just given you the string.");
             }else if(number ==2){
-                msg = (ChatColor.RED + "HI wanna be firen- Why are you hitting me?");
+                msg = (ChatColor.RED + "HI wanna be frien- Why are you hitting me?");
             }else if(number ==3){
                 msg = (ChatColor.RED + "You didn't like my jumping kisses?");
             }else if(number == 4){
-                msg = (ChatColor.RED + "Well I guess I shouldnt scare you anymore.");
+                msg = (ChatColor.RED + "Well I guess I shouldn't scare you anymore.");
             }else if(number == 5){
                 msg = (ChatColor.RED + "It only had love inside It's eight eyes");
             }
@@ -225,7 +225,7 @@ public class Hostiles implements Listener {
             if(number == 1){
                 msg = (ChatColor.RED + "That potion was just an experiment.");
             }else if(number ==2){
-                msg = (ChatColor.RED + "Witchs can be good ya know, haven't you heard of the Good Witch?");
+                msg = (ChatColor.RED + "Witches can be good ya know, haven't you heard of the Good Witch?");
             }else if(number ==3){
                 msg = (ChatColor.RED + "I know I'm ugly but It's not my fault.");
             }else if(number == 4){

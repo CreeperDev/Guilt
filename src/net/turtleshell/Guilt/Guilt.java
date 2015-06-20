@@ -17,8 +17,13 @@ public class Guilt extends JavaPlugin {
     public void onEnable(){
 
        /* manager = new ConfigManager(this);
-        config = manager.getNewConfig("config.yml");
-        */
+        config = manager.getNewConfig("config.yml", new String[]{
+                "Guilt 2.0!",
+                "Please download config.yml",
+                "at //placeholder//",
+                "and replace this config."
+        }); */
+
 
         Bukkit.getServer().getLogger().info(ChatColor.GREEN + "[" + getDescription().getName() + "]" + " Written By " + getDescription().getAuthors() + "  Is Enabled!");
         Bukkit.getServer().getPluginManager().registerEvents(new Friendly(), this);
@@ -50,6 +55,13 @@ public class Guilt extends JavaPlugin {
                 }else{
                     sender.sendMessage(ChatColor.RED + "You do not have permission for this command!");
                     return true;
+                }
+            }else if(args[0].equalsIgnoreCase("reload")){
+                if(sender.hasPermission("guilt.admin") || sender.isOp()){
+                    sender.sendMessage(ChatColor.AQUA + "Guilt is saving configuration");
+                    config.reloadConfig();
+                    config.saveConfig();
+                    sender.sendMessage(ChatColor.AQUA + "Guilt has finished reloading");
                 }
             }
 		}
